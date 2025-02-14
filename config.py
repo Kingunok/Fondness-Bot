@@ -9,7 +9,7 @@ USER_SESSION_STRING = ""
 CMD_SUFFIX = "1"
 AUTHORIZED_CHATS = ""
 SUDO_USERS = ""
-DATABASE_URL = "mongodb+srv://fino:fino@cluster0 .ko0stef.mongodb.net/?retryWrites= true&w=majority&appName=Cluster0"
+DATABASE_URL = "mongodb+srv://fino:fino@cluster0.ko0stef.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 STATUS_LIMIT = 4
 DEFAULT_UPLOAD = "gd"
 STATUS_UPDATE_INTERVAL = 15
