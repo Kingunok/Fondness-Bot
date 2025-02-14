@@ -44,8 +44,8 @@ async def task_status(_, message):
 • <b>NOTE</b> → <i>Each user can get status for his tasks by adding "me" or user_id like "1234xxx" after cmd: /{BotCommands.StatusCommand[0]} me or /{BotCommands.StatusCommand[1]} me</i>
 
 ⌬ <b><u>Bot Stats</u></b>
-• <b>CPU</b> → {cpu_percent()}% | <b>F</b> → {free} [{round(100 - disk_usage(DOWNLOAD_DIR).percent, 1)}%]
-• <b>RAM</b> → {virtual_memory().percent}% | <b>UP</b> → {currentTime}
+• <b>CPU:</b> {cpu_percent()}% | <b>F:</b> {free} [{round(100 - disk_usage(DOWNLOAD_DIR).percent, 1)}%]
+• <b>RAM:</b>  {virtual_memory().percent}% | <b>UP:</b> {currentTime}
 """
         reply_message = await send_message(message, msg)
         await auto_delete_message(message, reply_message)
